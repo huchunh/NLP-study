@@ -11,9 +11,9 @@ SENTENCE_BEGIN = "<s>"
 SENTENCE_END = "</s>"
 UNK = "<UNK>"
 
-
+tdata='training_files\iamsam2.txt'
+content=read_file(tdata)
 # UTILITY FUNCTIONS
-#qqqqq
 def create_ngrams(tokens: list, n: int) -> list:
   """Creates n-grams for the given token sequence.
   Args:
@@ -45,7 +45,7 @@ def read_file(path: str) -> list:
   contents = f.readlines()
   f.close()
   return contents
-
+print('12')
 def tokenize_line(line: str, ngram: int, 
                    by_char: bool = True, 
                    sentence_begin: str=SENTENCE_BEGIN, 
@@ -115,6 +115,28 @@ def tokenize(data: list, ngram: int,
   return total
 
 
+def create_cumulative_distribution(d):
+    """
+    Convert a dictionary into a cumulative distribution.
+    
+    Args:
+    d (dict): A dictionary where keys are objects (e.g., words) and counts 
+    
+    Returns:
+    list of tuples: Each tuple contains an object and its cumulative probability.
+    """
+    n=sum(d.values())
+    new_d = {key: value / n for key, value in d.items()}
+    items = sorted(new_d.items(), key=lambda x: x[1])
+    cumulative_distribution = []
+    cumulative = 0
+    for item, prob in items:
+        cumulative += prob
+        cumulative_distribution.append((item, cumulative))
+    return cumulative_distribution
+
+
+#tokenize_line('a',2)
 class LanguageModel:
 
   def __init__(self, n_gram):
@@ -123,8 +145,11 @@ class LanguageModel:
       n_gram (int): the n-gram order of the language model to create
     """
     # STUDENTS IMPLEMENT
-    pass
-
+    self.n = n_gram
+    #gram 
+    self.C = None
+    self.Vocabulary = None
+  
   
   def train(self, tokens: list, verbose: bool = False) -> None:
     """Trains the language model on the given data. Assumes that the given data
@@ -135,7 +160,19 @@ class LanguageModel:
       verbose (bool): default value False, to be used to turn on/off debugging prints
     """
     # STUDENTS IMPLEMENT
-    pass
+    self.Vocabulary = Counter(tokens)
+    adjusted_tokens = [token if self.Vocabulary[token] > 1 else '<UNK>' for token in tokens]
+    self.Vocabulary = Counter(adjusted_tokens)
+    if verbose:
+      print('function start')
+    #token=tokenize(tokens,self.n,by_char=False)
+    if verbose:
+      print(tokens)
+    n_gram=create_ngrams(tokens,self.n)
+    if verbose:
+      print(n_gram)
+    self.C=Counter(n_gram)
+    
 
   def score(self, sentence_tokens: list) -> float:
     """Calculates the probability score for a given string representing a single sequence of tokens.
@@ -146,7 +183,25 @@ class LanguageModel:
       float: the probability value of the given tokens for this model
     """
     # STUDENTS IMPLEMENT
-    pass
+    #print('start')
+    for token in sentence_tokens:
+      adjusted_tokens = [token if self.Vocabulary[token] > 1 else '<UNK>' for token in tokens]
+    score_gram=create_ngrams(adjusted_tokens,self.n)
+    c = self.C
+    p=1
+    V=len(c.keys())
+    #print(len(score_gram))
+    for i in range(len(score_gram)):
+      #print('inside')
+      numerator = self.C[score_gram[i]]
+      de = sum([c[t] for t in c.keys() if t[0:self.n-1]==score_gram[i][0:self.n-1]])
+      #print(numerator,'n')
+      #print(de,'d')
+      #laplace smoothing
+      a=(numerator+1)/(de+V)
+      p=p*a
+    return p
+
 
   def generate_sentence(self) -> list:
     """Generates a single sentence from a trained language model using the Shannon technique.
@@ -155,7 +210,49 @@ class LanguageModel:
       list: the generated sentence as a list of tokens
     """
     # STUDENTS IMPLEMENT
-    pass
+    n=self.n
+    beginning = [SENTENCE_BEGIN]*(n-1)
+    ret=[]
+    p=np.random.uniform(0,1,1)
+    if n == 1:
+      ret.append(SENTENCE_BEGIN)
+      cumulative_distribution = create_cumulative_distribution(self.Vocabulary)
+      while True:
+        p=np.random.uniform(0,1,1)
+        for item, cumulative_prob in cumulative_distribution:
+            if p[0] <= cumulative_prob:
+                  ret.append(item[-1])
+                  break
+        if ret[-1] == SENTENCE_END:
+          break
+        print(ret)
+    if n>1:
+        #sentence begin
+        for i in range(n-1):
+          ret.append(SENTENCE_BEGIN)
+        beginning_tuple = tuple(beginning)
+        #create dict with same prefix of n-1 elements
+        d= {k:self.C[k] for k in self.C if k[0:n-1] == beginning_tuple}
+        print('d',d)
+        cumulative_distribution =  create_cumulative_distribution(d)
+        while True:
+          p=np.random.uniform(0,1,1)
+          for item, cumulative_prob in cumulative_distribution:
+              if p[0] <= cumulative_prob:
+                    print('item','cum',item,cumulative_prob)
+                    ret.append(item[-1])
+                    break
+          if ret[-1] == SENTENCE_END:
+             break
+          beginning = ret[-(n-1):]
+          beginning_tuple = tuple(beginning)
+          beginning_count = {k:self.C[k] for k in self.C if k[0:n-1] == beginning_tuple}
+          cumulative_distribution = create_cumulative_distribution(beginning_count)
+          print('ret',ret)
+    #ret.append(cumulative_distribution[-1][0])
+    return ret
+
+
 
   def generate(self, n: int) -> list:
     """Generates n sentences from a trained language model using the Shannon technique.
