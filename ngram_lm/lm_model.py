@@ -282,10 +282,10 @@ class LanguageModel:
     Returns:
       float: the perplexity value of the given sequence for this model
     """
-    n=len(self.Vocabulary)
+    sequence_length=len(sequence)
     score=self.score(sequence)
-    return score**(-1/n)
-    
+    return  (1 / score) ** (1 / sequence_length)
+    #return (1/score)**(-1/n)
   
 # not required
 if __name__ == '__main__':
