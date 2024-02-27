@@ -12,7 +12,8 @@ SENTENCE_END = "</s>"
 UNK = "<UNK>"
 
 tdata='training_files\iamsam2.txt'
-content=read_file(tdata)
+tdata2='training_files\berp-training.txt'
+#content=read_file(tdata)
 # UTILITY FUNCTIONS
 def create_ngrams(tokens: list, n: int) -> list:
   """Creates n-grams for the given token sequence.
@@ -168,7 +169,7 @@ class LanguageModel:
     #token=tokenize(tokens,self.n,by_char=False)
     if verbose:
       print(tokens)
-    n_gram=create_ngrams(tokens,self.n)
+    n_gram=create_ngrams(adjusted_tokens,self.n)
     if verbose:
       print(n_gram)
     self.C=Counter(n_gram)
@@ -184,8 +185,7 @@ class LanguageModel:
     """
     # STUDENTS IMPLEMENT
     #print('start')
-    for token in sentence_tokens:
-      adjusted_tokens = [token if self.Vocabulary[token] > 1 else '<UNK>' for token in tokens]
+    adjusted_tokens = [token if self.Vocabulary[token] > 1 else '<UNK>' for token in sentence_tokens]
     score_gram=create_ngrams(adjusted_tokens,self.n)
     c = self.C
     p=1
@@ -194,9 +194,13 @@ class LanguageModel:
     for i in range(len(score_gram)):
       #print('inside')
       numerator = self.C[score_gram[i]]
-      de = sum([c[t] for t in c.keys() if t[0:self.n-1]==score_gram[i][0:self.n-1]])
-      #print(numerator,'n')
-      #print(de,'d')
+      if self.n != 1:
+        de = sum([c[t] for t in c.keys() if t[0:self.n-1]==score_gram[i][0:self.n-1]])
+      else:
+        de = sum([c[t] for t in c.keys()])
+      #print(numerator,'numerator')
+      #print(de,'de')
+      #print(V,'v')
       #laplace smoothing
       a=(numerator+1)/(de+V)
       p=p*a
@@ -215,13 +219,17 @@ class LanguageModel:
     ret=[]
     p=np.random.uniform(0,1,1)
     if n == 1:
+      num=0
       ret.append(SENTENCE_BEGIN)
       cumulative_distribution = create_cumulative_distribution(self.Vocabulary)
-      while True:
+      print(cumulative_distribution)
+      while num<20:
+        num += 1
         p=np.random.uniform(0,1,1)
         for item, cumulative_prob in cumulative_distribution:
+            print('item','cum',item,cumulative_prob)
             if p[0] <= cumulative_prob:
-                  ret.append(item[-1])
+                  ret.append(item)
                   break
         if ret[-1] == SENTENCE_END:
           break
@@ -244,6 +252,7 @@ class LanguageModel:
                     break
           if ret[-1] == SENTENCE_END:
              break
+          #update prefix 
           beginning = ret[-(n-1):]
           beginning_tuple = tuple(beginning)
           beginning_count = {k:self.C[k] for k in self.C if k[0:n-1] == beginning_tuple}
@@ -274,7 +283,7 @@ class LanguageModel:
     Returns:
       float: the perplexity value of the given sequence for this model
     """
-    pass
+    
   
 # not required
 if __name__ == '__main__':
