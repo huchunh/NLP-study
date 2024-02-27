@@ -1,0 +1,1349 @@
+Food Consumption Table (CCHS, Nutrition (2015)) ?Data Dictionary 
+Medians of body weights in kilograms, by age-sex group, Canada excluding territories, 2015 
+
+Grain Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Dairy Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Fat Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Meat Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Meat Alternative Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Vegetable Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Fruit products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Beverage products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Babyfood Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+Miscellaneous Products - Estimates of daily consumptions (basic foods and ingredients), by age-sex group, Canada excluding territories, 2015 
+
+
+Food-Group-Name	 	Name of Main Food Group, Food Group or Food Sub-Group
+
+Food-Group-Code		Code for Food Group or Food Sub-Group
+
+Sex	Both, Male, Female
+
+Age	All ages, 1-3 Years, 4-8 Years, 9-13 Years, 14-18 Years, 19-30 Years, 31-50 Years, 51-70 Years, 71+ Years, 1-18 Years, 19+ Years
+
+Number-of-Respondents	Number of respondents included in the analysis
+
+Percentage-of-Eaters	Percentage of eaters adjusted by sampling weights
+
+Mean		Arithmetic mean		
+
+P50		50th percentile		
+
+P90		90th percentile	
+
+P95		95th percentile
+
+SE		Standard Error
+
+All-Person-Consumption		All persons consumption population
+
+Eaters-only-Consumption		Eaters only consumption population
+
+Intake-g-per-person		Intake in grams per person per day
+
+Intake-g-per-kg-body-weight 	Intake in grams per kilogram of body weight per day
+
+'E'	Estimates with a coefficient of variation (CV) between 16.6% and 33.3% should be used with caution.  These are identified with a letter E next to the estimates.
+
+'F' or '.'	The estimate cannot be reported when any of the following situations is present:
+a. The number of eaters is less than 30
+b. The CV is greater than 33.3%
+c. The number of eaters is less than 100 for the 90th percentiles
+d. The number of eaters is less than 200 for the 95th percentiles
+?plus-minus sign found before all standard errors (in the Excel files) 
+
+what is the address of cha-am
+where can i get a cinnamon roll 
+ i'm looking for a fun um mostly college crowd mexican food restaurant that's cheap
+ tell me more about manuel's
+ what's the best french restaurant around
+any day
+anywhere in berkeley for dinner thursday is good
+are there any african restaurants
+cafe vin
+can i get spaghetti in the caffe giovanni
+can i look at the menu from bette's ocean view diner
+can i see the list again
+can you give me any directions 
+can you show me the menu
+computer uh there was a thai restaurant on the way here that i went past can you tell me about the thai restaurants in berkeley 
+dinner
+do you have any information about mediterranee 
+does thai barbecue have seafood on their menu
+friday or saturday night
+give me an idea where i could where i can get german food
+how about a french restaurant 
+how about nadine's 
+i can only walk to the place 
+i don't care
+i don't care about the cost anymore did gary try to crash it on purpose and it did work or it did not 
+i have nineteen dollars on me
+i like to have japanese food tomorrow night 
+i wanna eat indian food
+i wanna eat polish food at friday
+i wanna eat really good food i don't care how much it costs
+i wanna have some fast food 
+i want to go out for dinner
+i want to go out on a saturday
+i want to have indian food close to icksee and i want to have it today
+i want to have it on sunday 
+i want to spend four dollars 
+i want to travel no more than three blocks
+i would like a nice candle light dinner 
+i would like food food from the middle east oh
+i would like some inexpensive greek food
+i would like to eat some russian food
+i would like to eat tomorrow
+i would like to go back to the list of thai restaurants you gave me before 
+i would like to go for dinner on sunday night
+i would like to go to an indian restaurant
+i would like to have dinner
+i'd like indian food
+i'd like some mexican food
+i'd like to eat lunch 
+i'm looking for a cambodian restaurant for dinner on monday 
+i'm willing to spend from five to ten dollars
+in ten minutes
+indian food
+is the food in picante taqueria really spicy
+is there an indian restaurant on college avenue
+is there anything cheaper than that
+is there anything less than ten minutes away
+la-val's has a restaurant on euclid could you tell me something about it
+let's start over
+let's try a cheaper restaurant
+mid priced thai food is what i'm looking for
+not mexican any kind of food
+oh about two miles
+on tuesday
+please tell me more about hong-kong east ocean 
+saturday night
+start over
+start over
+tell me about caffe giovanni
+tell me about caffe giovanni
+tell me about the ristorante venezia
+tell me more about petrouchka
+tell me something about the first restaurant 
+tell me tell me what saul's deli is like
+ten dollars 
+the best burger in town please
+the distance does not matter 
+the restaurant should be in a distance of one half of a mile from icksee
+the second meal 
+today
+uh i'd like to eat on saturday
+um i can drive so it can be anywhere
+um what about a restaurant in albany
+under fifteen dollars 
+what about any night of the week
+what about the restaurant au-coquelet
+where can i have breakfast
+where is ay-caramba
+and it should be close to campus
+any distance 
+are there any persian restaurants in berkeley
+are there any thai restaurants that are open very late
+caffe giovanni
+can you suggest a restaurant with spicy food
+can you tell me about guerrero's
+cantonese food
+distance does not matter
+do you know of any restaurants serving bad food 
+even if i pay more 
+for dinner 
+guerrero's
+how far is it to walk 
+how many people can uh the casbah handle
+i don't want to spend more than six dollars
+i intend to spend less than ten bucks 
+i wanna have dinner 
+i want a place for lunch today
+i want dinner anywhere
+i want some mexican food
+i want some more information about oriental food to go
+i want some place about fifteen minutes from icsi
+i want to eat a good soup
+i want to eat for twenty dollars 
+i want to eat indian food
+i want to eat there on any day of the week
+i want to have european food 
+i want to spend two dollars 
+i would like some information about fourth street grill
+i would like some thai food
+i would like to eat on monday evening 
+i would like to go for lunch
+i would like to go to norteno's
+i would like to have dinner on tuesday an an expensive chinese restaurant twenty minutes from icksee
+i would like to have dinner tomorrow
+i'd like to eat dinner at a french restaurant 
+i'd like to go to a cafe 
+i'm looking for a restaurant for this sunday
+i'm willing to spend between ten to twenty five dollars 
+is there a mcdonald's restaurant 
+it doesn't matter
+let's start over 
+let's start over
+let's start over
+let's start over
+next i would like the cost to be between fifteen and nineteen dollars 
+no i'm interested in brunch 
+no thai food for me
+okay any cost
+okay i'm willing to pay up to thirty dollars
+okay the type of food should be american 
+please the names of some seafood restaurants 
+some dishes of venezia restaurant 
+start over 
+start over 
+start over
+start over
+start over
+tell me about fondue fred's
+tell me about hong-kong east ocean
+tell me all the restaurants on russell street
+tell me everything you know about taqueria cancun
+the long life vegi house is what i'm interested in
+the restaurant must be close to icksee
+the walking distance be not more than ten minutes 
+there is a restaurant right outside called food to go
+today
+tonight for dinner
+try a moderately expensive restaurant
+type of food kosher food distance anywhere 
+uh i'd like to spend um maybe less than fifteen dollars
+uh start over 
+um within walking distance of icksee
+what is your favorite restaurant
+what type of food do you get at la tour eiffel
+where can i get good coffee
+within five miles of berkeley
+yuck uh what smorgasbord restaurants are around
+any kind of food is okay
+can you give me list of uh japanese restaurants on telegraph
+can you tell me more about taiwan restaurant 
+eight dollars
+forget it
+friday or saturday
+give me more information on joshu-ya 
+i have a car so the distance is not important
+i just realized it should be exactly thirty dollars 
+i like to eat on a sunday 
+i like to eat sometime this evening
+i said dinner
+i think i'm in the mood for some thai food
+i wanna eat on wednesday
+i want an inexpensive meal
+i want cheap italian food for lunch
+i want food from vietnam
+i want more information about manuel's 
+i want south indian food
+i want to eat african food 
+i want to eat american food
+i want to eat german food and the distance does not matter 
+i want to eat pizza
+i want to eat sandwiches for lunch
+i want to have an american restaurant
+i want to take dinner
+i wanted to know if this restaurant is also open on monday evening
+i would invite you to go with me but i think you'd be horrible company
+i would like a hamburger for breakfast
+i would like to eat burgers 
+i would like to eat latin american food 
+i would like to eat some indian food
+i would like to go to an italian restaurant for lunch 
+i would like to have additional information about the jupiter 
+i would like to have chinese food
+i would like to know something about french food 
+i would like to spend at most eight dollars
+i'd like indian food
+i'd like to eat american food
+i'd like to eat today
+i'd like to have some indian food that costs less than twenty dollars
+i'm willing to travel further
+in a french restaurant
+it can be anywhere
+it doesn't matter the cost but i want to have dinner on sunday 
+it should be less than thirty dollars 
+let's start again
+let's start over
+let's start over
+let's start over
+more than fifteen dollars
+no more than twenty dollars per person
+not more than five dollar
+oh i'd like to eat there on wednesday
+oh it does not matter either 
+okay can i have more information on berkeley thai house
+okay i said twenty dollars
+show me more information about casa-de-eva 
+show the uh me uh show me the information about um the thai restaurant on martin luther king i forgot the name of it already 
+start over
+tell me about blue nile
+tell me about cactus
+tell me about cafe milano
+tell me about joshu-ya
+tell me about ristorante venezia
+tell me more about norteno's 
+the kind of food is california on friday for dinner distance and costs don't matter 
+today
+today
+uh money doesn't matter
+uh start over please
+um how about an hour from icsi
+um i'd like to eat seafood
+vegetarian 
+want to spend up to ten dollars 
+what about some uh indian food in the same area
+what else can you tell me about this restaurant 
+what is the best food at pasand madras cuisine
+where can i get expensive japanese food
+ distance can be up to twenty minutes walk
+ i'd like to
+about one hundred meters
+american food
+an expensive restaurant
+any type of food is good
+are there any good japanese places on solano 
+are there any vietnamese restaurants in berkeley 
+burger king 
+can i have cambodian food for lunch
+can you show me the rest of the list
+do you have chez-panisse in your database
+find an inexpensive restaurant
+how about for dinner 
+how about twenty dollars 
+i am looking for a bar
+i have a car
+i like californian food
+i want chinese food 
+i want indian restaurant
+i want to eat a hamburger
+i want to go to the closest restaurant to icsi
+i want to know something about the yangtze river restaurant
+i would like meat
+i would like to eat lunch
+i would like to go out for dinner tomorrow noon 
+i would like to go to a japanese restaurant tomorrow night i would like an expensive restaurant and very close to icksee 
+i would like to have california lunch today for a reasonable price in a walking distance from icsi 
+i would like to pay one dollar and fifty nine cents for my meal 
+i'd like to eat mexican food today
+i'd like to go for pizza 
+i'd like to have lunch near the bart station 
+i'd like to try a real barbecue restaurant in san__francisco 
+i'm interested in restaurants that are walking distance from campus
+i'm willing to travel half an hour
+is there any place around here with entertainment
+less than twenty four dollars total
+let's start over 
+let's start over 
+let's start over
+let's try cambodian food
+let's try lunch
+like to eat any day 
+no more than ten dollars 
+okay please remove the chinese food restaurants from the list no chinese food 
+okay shows me the list again 
+on saturday or sunday
+please give me more information about la tour eiffel
+please list all places that serve sushi
+sandwich 
+show me the last item again and it should not cost more than five dollars 
+show me the santa-fe bar and grill
+south east asian food 
+start over 
+start over
+tell me about the continental garden
+today i'd like to have lunch in a good italian restaurant 
+uh can you tell me more about the uh sun-hong-kong
+uh i only want restaurants that are within two minutes walk from here
+uh i would like to know about what i could eat in this restaurant
+uh which are the most affordable places close to icsi for lunch
+um so i i was kidding i really want thai food
+well i said two miles 
+what about mexican food 
+what can you tell me about smokey joe's cafe 
+what do you think about six dollars 
+what kind of food do they have at shin-shin
+where can i get a red bordeaux wine 
+where can i go for a coffee
+where is sweet basil located
+african restaurants 
+any kind of food
+any kind of food is okay with me
+any type of food
+caffe giovanni
+cambodiana's
+can i have more information about this taiwan restaurant
+can you give me some more information about the shin-shin please
+can you show me the list for ten dollar restaurants 
+do you have any ethiopian restaurants
+do you know of any restaurants that serve pickled pigs feet
+does not matter 
+give me a cheap coffee 
+guerrero's homemade cafe hong-fu hong-kong villa international house cafe 
+how can i get to lalime's restaurant
+how late is cha-am open
+how much does dinner cost at bucci's
+i can walk ten minutes
+i don't want to spend more than fifteen dollars 
+i really would appreciate some burgers
+i want indian food
+i want some italian food
+i want to eat at saul's deli
+i want to eat lunch
+i want to eat on a saturday night
+i want to eat only salad
+i would like to eat an italian meal
+i would like to eat on tuesday
+i would like to eat some good french food
+i would like to go for dinner
+i would like to see a dinner menu please
+i would like to spend twenty dollars 
+i would prefer to eat on a saturday
+i'd like to go on sunday
+i'd prefer a distance of let's say five minutes 
+i'm willing to spend more than fifteen dollars
+i'm willing to travel at least five miles
+it does not matter 
+it has to be a cheap restaurant
+let's start over 
+let's start over
+lunch
+may i see the information on bucci's
+might be up to ten blocks away from icsi 
+next thursday
+no more than five miles
+okay i would like to know everything on the plearn thai cuisine 
+on friday
+one hour
+show me again the list of restaurants matching the query 
+show me more about shilpa
+show me the indian restaurant list again please
+start over
+tell me a bit more about caffe venezia
+tell me about ay-caramba
+tell me about maxim cafe
+the meal should be in a medium price range
+uh chinese food
+uh i would like to eat on uh a weekend
+uh which ones serve the most
+um ten minutes
+um uh computer um uh are there any fancy restaurants in berkeley
+what hours is it open
+what kind of food does shilpa serve
+where can i have italian food tonight 
+where is won thai cuisine 
+which of these restaurants are chinese
+you have some american food 
+about ten dollars 
+breakfast 
+can i make reservations
+can you go to lunch at brennan's for ten dollars 
+fifty dollars 
+goodbye
+howbout thai food
+i decided i'm in a hurry can you get some place really close
+i like to eat next saturday
+i wanna spend more than twenty dollars 
+i want an
+i want mexican food
+i want to eat at dinner
+i will be looking for food on saturday
+i would like to eat a cheeseburger and beer
+i would like to eat dinner 
+i would like to eat in berkeley
+i would like to eat tomorrow and the type of food i prefer is indian food 
+i would like to get a reasonable price 
+i would like to have cheap food
+i would like to have some italian food
+i would like to spend a hundred dollars
+i'd be willing to shell out anything up to about uh ten semolians 
+i'd like to go within walking distance of icsi 
+i'd like to know something more about shilpa please
+i'd like to see a list of restaurants where i can eat breakfast
+i'll try to get a car so it shouldn't matter 
+i'm looking for oh you don't have anything about locations like hearst avenue finished 
+in greek food
+indian food
+isn't there a mcdonald's 
+it should be uh in around one mile 
+it's for this weekend 
+let's start again
+let's start over 
+lunch 
+lunch please
+not much
+okay i can spring for ten dollars today
+okay tell me about that ethiopian restaurant on telegraph
+one mile
+please give me a list of expensive restaurants 
+show me more about ristorante venezia
+show me the list again
+show me the list of restaurants
+start over
+tell me about caffe venezia
+tell me about cambodiana
+tell me about juan's place
+tell me about mel's diner
+tell me about peruvian food at any price
+tell me more about la mediterranee
+the cost doesn't matter
+um are there any places for breakfast in berkeley
+up to ten dollars 
+what's the cross street at guerrero's
+which one has the best food
+why don't you make that up to sixteen dollars
+ um my parents would be willing to spend fifteen to twenty five dollars on entrees um
+about ten minutes walk 
+any meal
+can you show me information about kirala
+can you tell me more about bette's ocean view diner 
+could you list japanese restaurants
+do they serve rib-eye steaks 
+do you have a list of food types
+do you know about chez-panisse cafe
+how about any japanese restaurants
+how expensive is it 
+how's the service at kirala
+i don't want to go far
+i like a wednesday
+i really like to spend up to one hundred dollars 
+i wanna eat today
+i want i want to eat during the weekend in a greek restaurant 
+i want to have dinner
+i want to pay exactly fifty dollars 
+i want to spend fifteen dollars
+i would like german food
+i would like german food especially bavarian is my preferred kind of food
+i would like to eat a burger today
+i would like to find a thai restaurant 
+i would like to spend less than twenty dollars
+i'd like to eat a cheap lunch close by
+i'd like to eat today for lunch
+i'd like to have a salad
+i'm looking for any kind of restaurant for brunch
+it doesn't matter if the restaurant is a long way from icksee
+let's start again 
+let's start again
+no i only wanted italian
+no i would not like to go on sunday only i would like to go on any day of the weekend 
+no more than five miles
+not important
+not too far somewhere between five and ten minutes
+okay tell me something about tambo cafe 
+only ten dollars
+please show italian foods
+somewhere cheap would be good
+start over 
+start over
+start over
+tell me about cafe vin
+tell me about christopher's cafe
+tell me about the brick hut cafe
+tell me more about au-coquelet and about the homemade cafe
+tell me more about norteno's 
+the lunch should not be more expensive than twenty dollar
+the price should need be not more than twenty dollars 
+the restaurant should be less than thirty minutes from icsi
+the restaurant should not be so far but um should have a nice view 
+thursday 
+tuesday
+um how i think i'd like to have um breakfast
+vasiliki vegi food vietnam village viva taqueria westside bakery
+what about restaurants with caribbean food
+when is spats open
+where do you recommend to have lunch
+yes but can you tell me about picante taqueria
+ uh can you list the vegetarian restaurants
+about half a mile
+any type of food is good
+any type of food please
+any vegetarian restaurants 
+are there any brazilian restaurants nearby i try again 
+are they open on monday
+are they open on sunday
+au-coquelet
+bye
+can i see the list again
+can you give me a list of chinese restaurants in berkeley
+could you please give us some more information on gertie's
+do you have a copy of their menu 
+do you have any uh australian restaurants on your list or no no no no make that south east asian 
+do you know a korean restaurant 
+do you understand sizzler
+for this same case it needs to be sunday night
+give me a place for having breakfast
+how about monday
+how about uh more expensive restaurants 
+how far from icksee is juan's place
+how much is metropole
+i do not want to spend too much money
+i like beer
+i own a bike and i'm willing to bike for about ten minutes
+i wanna eat american food
+i want american food
+i want cheap food 
+i want chinese food on monday for dinner
+i want eat lunch 
+i want the best croissants
+i want to eat greasy food
+i want to eat junk food
+i want to know more about yangtze river 
+i want to spend very much money
+i would like to go out for dinner tomorrow noon 
+i would like to have italian
+i would like to have lunch 
+i'd like to eat lunch
+i'd like to eat out tonight
+i'd like to go for chinese food
+i'd like to have some middle eastern food
+i'd like to have um a russian dinner
+i'd like to know more about spats 
+i'd like to spend less than twenty dollars
+i'm interested in an italian restaurant
+i'm willing to travel up to fourteen miles
+international house cafe joshu-ya juan's place juice bar collective kip's
+it has to be within five minutes of icsi
+lalime's
+less than twenty dollars 
+let's start over
+let's start over again
+no i would like to eat south american food 
+no more than five miles
+no more than twenty dollars
+not expensive
+okay let's go back to the previous selection and it should be around thirty dollars 
+on sunday
+saul's deli shin-shin siam cuisine skates soup kitchen heike
+show me a kosher deli
+show me a list of european restaurants 
+some more information about restaurant in solano avenue
+stuffed inn sujatha's sushi-sho taiwan restaurant thai barbecue
+sunday
+tell me about the long life vegi house
+the cost is not important
+the cost is unimportant
+thursday
+uh i would like to eat on a sunday
+um a french restaurant close to icsi
+wednesday
+well let's make it cheap
+what are all the indian restaurants 
+what is fat apple's 
+what kind of soup do they have at nakapan
+when is caffe venezia open during the day
+where do i find a big steak
+which one is the closest to icksee
+with california cuisine
+within a twenty five minute drive from here
+would you please start over
+ i'm looking for a thai restaurant that is not too expensive and is on south side
+all restaurants open after midnight
+as little as possible
+can you tell me about asian food in berkeley
+cost between fifteen and nineteen dollars 
+do you have a menu for cha-am
+find some uh can't you find lunch for me 
+give me cheap restaurants
+give me thai restaurants again 
+greek
+hi i'm looking for a korean restaurant
+i don't really care
+i don't really care what kind of food
+i like to spend ten dollar
+i want a restaurant that serves drinks
+i want an expensive restaurant
+i want some pizza
+i want to bike for five minutes
+i want to eat sushi now
+i want to have breakfast on a saturday morning
+i want to spend fifty dollars 
+i want to spend seven dollars
+i would like to eat at the evening of this day 
+i would like to eat on friday
+i would like to eat some cuban food not to spend more than twenty five dollars
+i would like to get some more information about tambo cafe
+i would like to have a californian restaurant
+i would like to have some persian food
+i would like to walk about five blocks
+i'd like a cinnamon roll 
+i'd like american food 
+i'd like to eat today dinner
+i'd like to go to the japanese restaurant on sunday for dinner
+i'd prefer to eat on tuesday or wednesday
+i'm willing to pay up to fifty dollars
+i'm willing to travel a few miles
+i'm willing to walk ten minutes
+indian restaurant
+is the distance walking distance or distance by car
+it could be any day
+it should be below ten dollars 
+japanese food
+less than twenty dollars 
+let's start over
+let's start over
+lunch
+more than ten minutes
+on christmas
+on monday
+on sunday morning and i want uh an expensive place 
+please tell me more about the restaurant vasiliki 
+show me something about christopher's cafe 
+spend about thirty bucks
+start over
+start over
+tell me about cafe violeta
+tell me more about hong-kong east ocean
+thursday
+to eat on saturday
+tomorrow
+uh tell me more about joshu-ya
+um are there russian restaurants in berkeley
+what about mexican food 
+what do you have about shilpa restaurant
+what information do you have about sandwich places
+where can i have seafood
+where is a good place for thai food
+which of these are late night
+also do you have some uh restaurant which serves california food
+and for breakfast 
+are there other american restaurants 
+area area
+at the weekend i want to eat ethiopian food
+can i also eat breakfast at panini
+can you give me a list of restaurants serving american food in the area 
+can you recommend a french restaurant nearby
+do they serve spaghetti at la-val's
+do you have other gourmet restaurants californian style
+doesn't matter
+eight dollars
+eight dollars please 
+i am looking for restaurants with original californian food 
+i don't eat pizza
+i like malaysian food 
+i want a cheap french restaurant 
+i want lunch
+i want more information about shilpa
+i want to go somewhere within driving distance
+i want to have dinner in a german restaurant tomorrow
+i want to spend fifteen dollars 
+i will be going on thursday
+i would like to eat anything but japanese 
+i would like to eat uh vegetables and uh fruits 
+i would like to go out for dinner today
+i'd like a vegetarian choice
+i'd like an indian meal
+i'd like more information about petrouchka's 
+i'd like some information about restaurants
+i'd like to go back to the list of restaurants you gave me before 
+i'd like to go some place with a bar
+i'd like to know about brit-marie's
+is there a restaurant an hour away
+is there any sudanese
+is there owner italian
+it could be in a surrounding of five kilometers
+it's for this weekend 
+let's try sunday
+next i would like the cost to be between uh fifteen and uh nineteen dollars 
+next sunday
+no i would not like to go on sunday only i would like to go on any day of the weekend 
+okay go back to the previous list 
+on the type of food i want mexican
+on the weekend
+please i beg you show me the restaurants 
+saturday
+show me places more than thirty minutes from icksee
+start over
+start over
+tell me about au-coquelet 
+tell me about vegetarian chinese food
+tell me about venezia
+tell me more about it oh well
+tell me something nearby and cheap
+two dollars per slice
+uh fifty dollars
+uh i like to see only uh restaurants in shattuck avenue
+uh start over
+um can you give me more information on the french restaurant
+um show me the information about enoteca-mastro
+well um i'd like to find a restaurant that serves vegetarian food
+well what are omelets anyways uh i guess it could be french or california or just plain old american
+what do you know about sizzler 
+which restaurant is within four minutes from icsi
+you should not constrain the cost at all
+ um for dinner on the weekends that doesn't require reservations 
+any amount is fine 
+any distance at all
+around ten blocks from icsi 
+at tuesday
+can i have more information on the cafe durant
+can i have more information on um metropole
+dinner
+do they have vegetarian food at juan's place
+do you know a malaysian restaurant 
+do you know any fancy japanese restaurant
+do you know any restaurants with jamaican food
+end of the week
+food from india
+hi i would like to eat some american food i want to travel any distance from icksee
+how about chez-panisse
+how about twelve dollars a person
+how about vegetarian food
+i can only walk ten minutes or so
+i don't want to go to a cuban restaurant 
+i like thai food 
+i like to eat on sundays
+i said that i want to eat pizza for lunch
+i wanna restaurant very expensive 
+i want a cheap restaurant 
+i want indian food 
+i want roast beef 
+i want to eat in the evening
+i want to go to dinner
+i want to have lunch
+i want to have lunch at bucci's
+i want to see the previous list
+i would go a distance of five minutes
+i would like to eat dinner
+i would like to eat on monday
+i would like to go somewhere formal
+i would like to have russian food
+i would like to spend between six to twelve dollars
+i'd like to eat spanish food 
+i'd like to find a french restaurant in berkeley
+i'd like to go to an ethiopian restaurant 
+i'd like to spend up to fifty dollars 
+i'm looking for some place to take somebody picky
+i'm looking for something more than five minutes from berkeley
+i'm willing to drive five miles away
+it could be any meal
+it doesn't matter
+it should be any night but tuesday
+just a short walk from icsi about half a mile
+less than ten minutes
+let's stay within six blocks of icsi
+list other italian restaurants please
+more than fifty dollars 
+not very much money
+on saturday 
+please show german restaurants
+start over 
+start over
+start over
+tell me about fat slice pizza
+tell me about la tour eiffel 
+tell me about la tour eiffel
+tell me about sushi-ko
+tell me about the eiffel restaurant 
+tell me more about hong-kong east ocean please
+tell me more about mel's diner
+the restaurant should be less than five hundred meters far 
+twenty dollars 
+what hours is cambodiana's 
+where can i get thai food for lunch
+where could i go to spend two dollars or less for lunch
+why not good old american
+yes i would like to eat today 
+ where can i go to have dinner today tonight
+american food 
+and it has to be within twenty minutes driving distance
+any day
+anywhere 
+californian food
+can you tell me about great china restaurant
+costs about fifteen dollars
+could be five minutes away from icsi 
+could you show me the list
+desserts 
+dinner
+dinner
+distance should be wherever
+do you have any california cuisine
+do you have information on vegi food restaurant 
+five minutes walk
+hello i would like to eat some italian food
+how expensive is kirala 
+i can drive
+i don't care about the cost anymore 
+i like reasonably priced breakfast on sundays uh american brunch for eight dollars or less
+i like to go to a japanese restaurant for lunch
+i like to have some italian food 
+i prefer breakfast
+i said that i would like lasagna
+i want a pizza place on telegraph
+i want brazilian food
+i want lunch
+i want spaghetti
+i want the closest restaurant to icksee and the less expensive 
+i want to eat breakfast on a saturday morning
+i want to eat indonesian food please
+i want to eat italian food
+i want to go to dinner
+i would like to eat um to have dinner
+i'd like to eat american food
+i'd like to eat french food
+i'd like to eat spanish food
+i'd like to go to san__francisco
+i'd like to have a cheeseburger
+i'm looking for ethnic food
+i'm looking for restaurants serving italian food 
+is the cafe pastoral still in business
+is there any vegetarian food at this restaurant 
+it doesn't matter how far it is away
+it really doesn't
+let's start again
+let's try european food 
+louder i'd like to eat some pizza
+lunch
+lunch
+monday
+oh i guess up to eight dollars
+okay show me asian food 
+oliveto's 
+please give me a list of chinese restaurants in the area 
+regular american breakfast
+show me a list of european restaurants 
+show me the information about enoteca-mastro
+start over 
+start over 
+start over 
+start over 
+start over 
+tell me about pasand's
+the restaurant should be within ten minutes' driving distance from icksee
+twelve
+vegetarian restaurant for under fifteen dollars
+want to go for brunch
+what can you tell me about taqueria cancun 
+what do you know about long life vegi house
+what's a good place to eat breakfast 
+within three miles of icsi
+about twenty dollars 
+any type of food 
+are there any restaurants that have brazilian food
+cafe mar-mara cafe pastoral cafe vin cafe violeta caffe giovanni
+can i see the previous list
+can you find me something not far away than five minutes and where i can have lunch in the evening
+chinese food please
+dinner
+dinner please
+do you have any information on the stuffed inn
+do you know of any good japanese restaurants 
+do you know restaurants with caribbean food oh 
+does ay-caramba serve vegetarian burritos
+does lantern allow smoking
+give me some italian restaurants
+how do i find the hong-kong east ocean restaurant
+how much does uh cafe vin cost
+i don't want to spend more than forty dollars
+i like breakfast food in the afternoon brunch food 
+i like brunch food on the weekends primarily that's brunch food not french
+i need a place for friday
+i need a place saturday night
+i wanna go on saturday
+i want a green salad for lunch today
+i want any type of food and um the price doesn't matter
+i want italian food
+i want like just an authentic mexican restaurant with burritos and maybe no seats
+i want to eat italian food
+i want to eat there every day
+i want to go to a mexican restaurant on tuesday
+i want to go to japanese restaurant 
+i would like a close inexpensive restaurant 
+i would like to eat chinese food
+i would like to eat dinner
+i would like to eat on saturday 
+i would like to have a japanese food
+i'd like some thai food that's near by but not plearn's please
+i'd like some vietnamese food
+i'd like to have dinner
+i'd like to spend under ten dollars
+i'm looking for a chinese restaurant
+i'm looking for a restaurant on telegraph avenue
+i'm willing to travel five miles
+it doesn't really matter
+it should be in the distance of four miles 
+it should be within fifteen minutes 
+let's start over
+maybe we try a mexican restaurant 
+nakapan
+nina thinks you're totally cool
+none thank you
+okay how about north african are there any north african restaurants 
+okay i can walk say one hundred and twenty minutes from icsi
+panini pasand madras cuisine pepito's mexican deli petrouchka picante taqueria
+please give me a list of mexican restaurants 
+russian food
+show me the list again
+spenger's stuffed inn sujatha's sushi-sho taiwan restaurant
+start over
+start over
+the cost of the meal should be between ten to twenty five
+the day doesn't matter
+three miles
+uh let's start over show me a chinese restaurant for about ten or fifteen dollars a plate close to campus for a weekend dinner
+um i'd like to to go to a coffee place
+um tell me more about metropole
+weeknight dinner
+what about lunch
+what if i asked for food from the southwest
+where can i get sushi for lunch
+which of these are open late at night
+within two miles of icksee please
+you know i am so hungry i don't care what kind of food it is
+and the cost doesn't matter 
+any day 
+any day of the week 
+are any of the restaurants on the list open in the morning
+are there any greek restaurants in the neighborhood
+are there any indian buffets in berkeley
+are there any indian restaurants within five blocks of icksee costing less than ten dollars for lunch 
+around five dollars preferably less
+can you give me some information about sushi-ko
+can you show me the previous restaurant again
+can you tell me about um cancun
+cost between fifteen and nineteen dollars 
+do they serve drinks
+do you know any restaurants in college avenue 
+do you know anything about lilly's
+does ay-caramba have takeout
+does pasand have a buffet
+does the fact that the dara doesn't appear on your list mean that you have no information on it
+excellent
+five minutes 
+five minutes from icksee
+give me additional information on sushi-ko
+give me more information about caffe giovanni
+go tonight
+hamburger sounds nice
+hi i'm looking for an italian restaurant
+how late do they serve
+i don't care what the cost is
+i don't know 
+i have twenty dollars on me
+i like information about berkeley thai house
+i want any type of food
+i want to eat a french meal in monday
+i want to eat italian food
+i want to have american food tonight 
+i want to spend twenty five dollars
+i want very high quality food something really tasty
+i would like to get mexican food
+i would like to have the cheapest food or the medium price range
+i would like to have uh chinese food 
+i would like to uh have dinner on saturday in berkeley
+i'd like thai food on friday lunchtime cheap
+i'd like to eat at fat apple's
+i'd like to eat lunch
+i'd like to spend ten dollars and fifty cents
+i'd like to try uh eating some chinese food
+i'll eat any day
+i'm interested in lunch on friday 
+i'm interested in malaysian food
+if it's no chinese it will have to be american
+is it open at lunch time 
+it can be really expensive
+it should cost around ten dollars 
+it should cost less than seven dollars
+italian
+let's start over
+let's start over
+maybe we could put the cost down to ten dollars again 
+monday
+not too expensive somewhere in mid-price range say fifteen dollars 
+oh about twenty dollars 
+okay show me the information about la-mediterranee la-mediterranee something like that 
+okay start over
+okay thank you for the information 
+okay uh give me some chinese restaurants 
+okay what chinese restaurants um are there within five blocks of icksee that cost more than thirty dollars a meal 
+show me sizzler
+show me the list again 
+so within thirty minutes 
+some breakfast 
+sunday
+tell me about restaurants that are very far from icsi
+tell me about thai restaurants
+tell me about venezia
+tell me more about au-coquelet
+tell me more information about vasiliki
+thank you good bye and start over 
+the cost should be under twelve dollars
+the distance should be five miles
+the restaurant can be forty minutes away 
+today oh i would like to eat today
+uh i want the distance of restaurant to be within thirty minutes of walk
+uh not too much i was thinking about a restaurant that's near to icsi like within five minutes off icsi 
+uh now i'm looking for a nice restaurant
+um do they also serve breakfast
+um under twenty dollars
+what about ochame
+what about restaurants that are not chinese
+what time does viva taqueria close
+where can i go for coffee 
+which thai restaurants serve lunch in berkeley
+yeah i'm looking for a vegetarian place that's open on wednesday
+american food
+anywhere in berkeley
+back to the list
+breakfast
+cafe fanny cafe mar-mara cafe pastoral cafe vin cafe violeta
+can you tell me if there are any cheap mexican restaurants nearby
+do you have no ethiopian restaurants
+do you have something between five and eight dollars
+how about anywhere in berkeley 
+how much seating does spats have
+i don't want french
+i said i would like to eat some indian food
+i still would like to have indian food
+i wanna have lunch 
+i want a restaurant that allows smoking 
+i want to eat in albany
+i want to eat sunday breakfast
+i want to eat thai food
+i would like real american burgers 
+i would like to eat breakfast
+i would like to eat hungarian 
+i would like to have dinner
+i'd like some mediterranean food
+i'd like to eat italian food
+i'd like to try a barbecue restaurant in berkeley 
+i'm looking for a restaurant in walking distance from icsi 
+i'm looking for a restaurant that serves mexican food
+i'm willing to travel fifteen minutes
+is there a restaurant in the rockridge area
+it should cost less than fifteen dollar per person
+less than twenty five minutes' walk
+let's start over
+let's start over
+let's try costs in the five dollar to ten dollar range
+like to see some middle eastern restaurants 
+make it walking distance
+no no no lilly's chinese food
+not more than twenty dollars 
+okay cost doesn't matter
+okay go up to fifteen dollars 
+on friday 
+open after midnight
+russian food
+said hamburger 
+salad
+show me the ones in oakland
+some greek food
+something closer
+tell me about the top dog
+tell me some french restaurants in berkeley
+the day after tomorrow
+the distance is one hour
+the price should be less than five dollar 
+twenty minutes from icksee
+uh i'm kind of hungry now so howbout today
+uh what's a restaurant a chinese restaurant where i can have a uh vegetarian dinner
+we'd like to eat on saturday night
+well tell me if you like oriental food to go
+what do you know about european food in berkeley 
+where is sujatha's
+within twenty minutes walking
+within walking distance
+would like to eat on thursday for lunch
+ i want to spend five dollars
+about one mile 
+about three miles
+and of course because i am a poor starving student it would have to be cheap
+are there any restaurants in town that serve middle eastern food
+can you give me some more information on skates
+can you show me the list of restaurants
+can you suggest a good italian restaurant
+dinner
+do you know of any antarctican restaurants
+german food please
+give me additional information on le cheval
+go for cafe
+hello 
+how about indian cuisine
+how about your place thai restaurant 
+hundred rupees
+i am willing to travel five miles 
+i can spend over ten dollars 
+i don't want to go too far
+i like spicy mexican food uh that's cheap 
+i said two minutes not five
+i wanna go for dinner to that restaurant
+i wanna spend twenty dollars
+i want a sandwich
+i want an an expensive mexican restaurant
+i want dinner
+i want french food 
+i want indian food
+i want to eat some german food please
+i want to have fish and chips
+i want to spend about five dollar
+i want to spend no more than thirty dollars for two people 
+i wanted to eat cambodian food
+i would like german food
+i would like japanese food
+i would like more information on italian restaurants
+i would like to eat duck
+i would like to spend about ten dollars and it should be on a sunday 
+i'd like to eat mexican
+i'd like to eat uh fish 
+i'd like to have french food on monday for lunch 
+i'd like to spend i don't know under ten bucks something like that
+i'd like vietnamese food
+i'm able to travel up to thirty minutes
+i'm interested in some uh french restaurant near icsi
+i'm looking for the restaurant
+i've got a car so i can go anywhere in berkeley
+in oakland
+is there any good italian restaurant in san__francisco 
+it should cost around fifteen dollars 
+italian
+let's start over
+let's start over
+lunch 
+me about snacks
+no twenty dollars 
+okay look i wanna eat dinner tonight and i want to spend thirty dollars okay
+okay please tell me about restoran-rasa-sayang
+please give me additional information on the mermaid restaurant 
+please show me the menu of hong-kong villa
+show me all the thai restaurants in berkeley
+start over 
+start over 
+start over 
+start over
+start over oops is it recording 
+sun-hong-kong
+sunday
+tell me about petrouchka
+thai
+the distance doesn;t matter 
+the price should be about twenty bucks 
+three miles
+today
+twenty minutes walking distance
+twenty minutes walking distance
+uh about fifteen dollars per person
+uh what do they serve at the uh at the addison annex
+we've got a car so i don't care how far we have to go
+what about taqueria de berkeley
+what other indian places are there
+where can i drink a coffee
+where can i get shakes 
+where can i uh drink a coffee
+ i'd like to spend about six dollars each meal
+about two miles 
+actually can cost up to forty five dollars 
+any day
+any price i am not interested in price now
+caffe giovanni have fettucini alfredo
+can i start over please
+can you give me the list of the restaurants again 
+can you tell me about any good cantonese restaurants close by
+cancun
+could be any distance
+could be any meal
+dinner for under thirty dollars
+do they serve breakfast
+do you have american food in downtown berkeley
+every day of the week
+for ten dollars 
+friday
+give me more information about la tour eiffel 
+hello berp are there any good indonesian restaurants in berkeley 
+how about cuban food
+how about pizza
+howbout dinner
+i don't really care about the cost
+i don't wanna travel too far
+i wanna spend only fifteen dollars
+i want caribbean food
+i want more information about sujatha's 
+i want some place more than ten minutes away
+i want to eat ice cream on tuesday at lunchtime
+i want to eat in rasa-sayang
+i want to eat lasagna spaghetti pasta
+i want to eat today
+i want to eat uh italian
+i want to know all chinese restaurants where the meal is less than five dollar
+i would like information on edy's
+i would like to eat breakfast
+i would like to eat in a vegetarian restaurant 
+i would like to eat mexican
+i would like to eat on wednesday 
+i would like to go out for lunch today 
+i would like to have fettucini for dinner
+i would like to see the list of pizza restaurants again 
+i'd like an italian restaurant
+i'd like to eat barbecue
+i'd like to go out into american restaurant
+it can cost up to thirty dollars 
+japanese food
+may i see the list again
+oh
+okay show me the list again 
+polish food
+show me the list again please
+so the minimum cost for blue nile is twenty dollars
+start over 
+start over
+start over
+start over
+start over
+start over
+start over
+tell me about guerrero's
+ten miles
+ten minutes
+the cost doesn't matter 
+the distance should be at most twenty kilometers
+the meal could cost up to ten dollars 
+the place may be far from icksee
+the place should be very cheap
+this saturday night
+today
+today is friday tell me where to eat
+uh do you have a restaurant for five dollar a person
+uh howbout cha-am restaurant
+uh i want it on wednesday for dinner
+uh just cut down the list to the most expensive restaurants
+up to twenty dollars
+well in that case how about some greek food
+well less than uh eight dollars 
+what about chez-panisse cafe
+where is caffe nefeli located
+any day is fine
+anything after nine o'clock
+are there any good vietnamese restaurants around here
+are you reading me
+around fifteen dollars
+can i have more information about sujatha's restaurant please
+can i have some korean food
+close to icksee
+do you have any breakfast places
+do you have anything listed about venezia on university
+edy's 
+give me information about le bateau ivre 
+how about a nice lunch 
+i don't want to spend more than uh ten dollars for a hamburger
+i don't want to walk for more than five minutes
+i only wanna go a coupla blocks
+i wanna eat someplace that's close to icsi
+i wanna have thai food 
+i want a meat dinner
+i want any day
+i want steak and seafood
+i want to eat on friday 
+i want to eat salad
+i want to go on tuesday
+i want to go to another asian restaurant 

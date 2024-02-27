@@ -122,6 +122,7 @@ class TestMiniTraining(unittest.TestCase):
     sents = lm.generate(5)
     for sent in sents:
       if len(sent) > 2:
+        print('sent',sent)
         for word in sent[1:-1]:
           self.assertEqual("<UNK>", word.upper(), msg = "tests that all middle words in generated sentences are <UNK>, bigrams")
 

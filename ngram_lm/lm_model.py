@@ -189,7 +189,7 @@ class LanguageModel:
     score_gram=create_ngrams(adjusted_tokens,self.n)
     c = self.C
     p=1
-    V=len(c.keys())
+    V=len(self.Vocabulary.keys())
     #print(len(score_gram))
     for i in range(len(score_gram)):
       #print('inside')
@@ -219,17 +219,16 @@ class LanguageModel:
     ret=[]
     p=np.random.uniform(0,1,1)
     if n == 1:
-      num=0
       ret.append(SENTENCE_BEGIN)
       cumulative_distribution = create_cumulative_distribution(self.Vocabulary)
       print(cumulative_distribution)
-      while num<20:
-        num += 1
+      while True:
         p=np.random.uniform(0,1,1)
         for item, cumulative_prob in cumulative_distribution:
-            print('item','cum',item,cumulative_prob)
+            #print('item','cum',item,cumulative_prob)
             if p[0] <= cumulative_prob:
-                  ret.append(item)
+                  if item != '<s>':
+                    ret.append(item)
                   break
         if ret[-1] == SENTENCE_END:
           break
@@ -241,13 +240,13 @@ class LanguageModel:
         beginning_tuple = tuple(beginning)
         #create dict with same prefix of n-1 elements
         d= {k:self.C[k] for k in self.C if k[0:n-1] == beginning_tuple}
-        print('d',d)
+        #print('d',d)
         cumulative_distribution =  create_cumulative_distribution(d)
         while True:
           p=np.random.uniform(0,1,1)
           for item, cumulative_prob in cumulative_distribution:
               if p[0] <= cumulative_prob:
-                    print('item','cum',item,cumulative_prob)
+                    #print('item','cum',item,cumulative_prob)
                     ret.append(item[-1])
                     break
           if ret[-1] == SENTENCE_END:
@@ -257,7 +256,7 @@ class LanguageModel:
           beginning_tuple = tuple(beginning)
           beginning_count = {k:self.C[k] for k in self.C if k[0:n-1] == beginning_tuple}
           cumulative_distribution = create_cumulative_distribution(beginning_count)
-          print('ret',ret)
+          #print('ret',ret)
     #ret.append(cumulative_distribution[-1][0])
     return ret
 
@@ -283,6 +282,9 @@ class LanguageModel:
     Returns:
       float: the perplexity value of the given sequence for this model
     """
+    n=len(self.Vocabulary)
+    score=self.score(sequence)
+    return score**(-1/n)
     
   
 # not required
