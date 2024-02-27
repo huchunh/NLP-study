@@ -2,9 +2,7 @@ from collections import Counter
 import numpy as np
 import math
 
-"""
-CS6120 Homework 2 - starter code
-"""
+
 
 # constants
 SENTENCE_BEGIN = "<s>"
@@ -23,8 +21,7 @@ def create_ngrams(tokens: list, n: int) -> list:
 
   Returns:
     list: list of tuples of strings, each tuple being one of the individual n-grams
-  """
-  # STUDENTS IMPLEMENT 
+  """ 
   ret=[]
   for i in range(len(tokens)):
       if i+n <= len(tokens):
@@ -160,7 +157,6 @@ class LanguageModel:
       tokens (list): tokenized data to be trained on as a single list
       verbose (bool): default value False, to be used to turn on/off debugging prints
     """
-    # STUDENTS IMPLEMENT
     self.Vocabulary = Counter(tokens)
     adjusted_tokens = [token if self.Vocabulary[token] > 1 else '<UNK>' for token in tokens]
     self.Vocabulary = Counter(adjusted_tokens)
