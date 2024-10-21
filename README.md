@@ -1,1 +1,1 @@
-n-gram language model from 0 witt only numpy 
+Implementation of n-gram language model 
